@@ -1,13 +1,10 @@
+package edu.oregonstate.eecs.cs331.assn2;
 import static org.junit.Assert.*;
 
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import edu.oregonstate.eecs.cs331.assn2.MiniMax;
-import edu.oregonstate.eecs.cs331.assn2.Player;
-import edu.oregonstate.eecs.cs331.assn2.Position;
-import edu.oregonstate.eecs.cs331.assn2.TicTacToeBoard;
 
 /**
  * 

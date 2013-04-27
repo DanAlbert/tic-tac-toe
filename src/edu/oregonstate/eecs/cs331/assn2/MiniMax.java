@@ -75,7 +75,7 @@ public class MiniMax implements Player
 		for (StateTree successor : tree.getSuccessors()) {
 			Move move = this.getMinMove(successor);
 			if (maxMove == null || move.getScore() > maxMove.getScore()) {
-				maxMove = move;
+				maxMove = new Move(successor.getMove(), move.getScore());
 			}
 		}
 		
